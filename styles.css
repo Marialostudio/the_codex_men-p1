@@ -1,3 +1,87 @@
-#Prueba {
-    background-color: rgb(201, 84, 16);
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Share+Tech+Mono&family=Suranna&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+#InteriorNav{
+    background-color: rgb(7, 12, 17);
+    color: aqua;
 }
+
+#barra {
+    background-color: rgb(7, 12, 17);
+}
+
+.imagenFondo {
+    background-image: url(./fondo.jpg);
+    height: 80vh;
+    width: 10hv;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#testing {
+    color: aliceblue;
+}
+
+#first-text{
+    letter-spacing: 3px;
+}
+
+#first-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorpadrenav{
+  
+    display: flex;
+    padding: 10px;
+    padding-inline: 100px !important;
+   
+} 
+
+.contenedor-logo{
+   
+
+    height:70px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 0;
+}
+
+.logo{
+    width: 200px;
+}
+
+.site-description{
+    position: absolute;
+    bottom: -10px;
+    left: 35px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+
+
+}
+
+.contenedortextoimagen{
+    width: max-content;
+    margin: 0;
+}
+
+.contenedortextoimagen h2{
+    text-wrap: pretty;
+    width: 65%;
+    font-size: 55px;
+}
+
+.contenedortextoimagen h2 b{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
