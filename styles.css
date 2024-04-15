@@ -3,12 +3,12 @@
 
 
 #InteriorNav{
-    background-color: rgb(7, 12, 17);
+    background-color: rgb(15, 36, 56);
     color: aqua;
 }
 
 #barra {
-    background-color: rgb(7, 12, 17);
+    background-color: rgb(15, 36, 56);
 }
 
 .imagenFondo {
@@ -83,4 +83,18 @@
 .contenedortextoimagen h2 b{
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Icons-first-section{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10%;
+    height: 10%;
+}
+
+#buttonFirstSection{
+    letter-spacing: 3px;
+    width: 35%;
 }
