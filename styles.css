@@ -12,7 +12,7 @@
 }
 
 .imagenFondo {
-    background-image: url(./fondo.jpg);
+    background-image: url(./assets/bg-night-2.jpg);
     height: 80vh;
     width: 10hv;
     background-repeat: no-repeat;
