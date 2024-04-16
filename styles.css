@@ -3,12 +3,11 @@
 
 
 #InteriorNav{
-    background-color: rgb(15, 36, 56);
-    color: aqua;
+    background-color: #0F1533;
 }
 
 #barra {
-    background-color: rgb(15, 36, 56);
+    background-color: #0F1533;
 }
 
 .imagenFondo {
@@ -97,4 +96,37 @@
 #buttonFirstSection{
     letter-spacing: 3px;
     width: 35%;
+}
+
+#background-SecondImage{
+    background-image: url(./assets/pic-woman-bed.jpg);
+    height: 140vh;
+    width: 10hv;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#SubSecondSection{
+    letter-spacing: 3px;
+    width: 35%;
+    color: #0F1533;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+}
+
+#textSecondSection{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    color: #0F1533;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 260%;
+    padding-left: 2%;
 }
