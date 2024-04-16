@@ -130,3 +130,83 @@
     font-size: 260%;
     padding-left: 2%;
 }
+
+#SecondText-SecondSection{
+    width: 70%;
+    padding-left: 2%;
+}
+
+#SegundoParrafo{
+    font-size: 125%;
+    text-align: center;
+
+}
+
+#Thirdsectionbg{
+    background-image: url(./assets/bg-moon.jpg);
+    height: 35vh;
+    width: 10hv;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ThirdSectionText{
+    display: flex;
+    color: #f1f2f7;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 280%;
+    padding-left: 2%;
+}
+
+#Forthsectionbg{
+    background-image: url(./assets/bg-moon.jpg);
+    height: 80vh;
+    width: 10hv;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: #5F84CE;
+}
+
+#ForthSectionText{
+    display: flex;
+    color: #0d1758;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 150%;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 1%;
+    text-align: center;
+    line-height: 100%;
+}
+
+#Picturereference{
+    height: 8%;
+    width: 5%;
+    background-color: red;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    gap: 5%;
+}
+
+#NameReference{
+    letter-spacing: 3px;
+    font-size: 60%;
+}
+
+#LocationReference{
+    font-size: 60%;
+    color: #f1f2f7;
+}
+
