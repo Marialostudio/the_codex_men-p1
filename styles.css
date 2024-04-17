@@ -524,7 +524,7 @@
 
 
 footer {
-    background-image: url("/assets/bg-night-2.jpg");
+    background-image: url("./assets/bg-night-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -615,7 +615,7 @@ ul {
 
 .copyright-text a{
     font-weight: 500;
-    color:#2b4c8d;
+    color:#418fad;
     text-decoration: none;
 }
 
