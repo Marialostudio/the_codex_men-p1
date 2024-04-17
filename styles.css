@@ -615,7 +615,7 @@ ul {
 
 .copyright-text a{
     font-weight: 500;
-    color:#5F84CE;
+    color:#2b4c8d;
     text-decoration: none;
 }
 
@@ -623,7 +623,9 @@ ul {
     color:aqua;
 }
 
-
+.single-sif{
+    color: #E8E1DB;
+}
 
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -1234,5 +1236,4 @@ ul {
         width: 50%;
         height: auto;
     }
-
 }
