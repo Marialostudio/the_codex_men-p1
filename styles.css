@@ -5,6 +5,8 @@
 #InteriorNav{
     background-color: #0F1533;
     flex-wrap: wrap !important;
+    position: fixed;
+    top: 0;
 }
 
 #barra {
@@ -225,6 +227,9 @@
     .contenedortextoimagen{
         max-width: 100%;
         text-align: center;
+    }
+    #first-section{
+        padding-top: 100px;
     }
 }
 
