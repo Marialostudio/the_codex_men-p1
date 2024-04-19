@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css"/>
     <title>GoodSleep - Terapia de sueño</title>
@@ -14,12 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/cd1b238b56.js" crossorigin="anonymous"></script>
   </head>
-    <body id="probando">
-
-        <nav id="barra" class="navbar navbar-expand-lg justify-content-end">
-
-           
-          <div id="InteriorNav" class="container-fluid contenedorpadrenav" >
+    <body>
+        <nav id="barra" class="navbar navbar-expand-lg justify-content-end position: fixed">
+          <div id="InteriorNav" class="container-fluid contenedorpadrenav position: fixed" >
             <div class="contenedor-logo">
               <a class="navbar-brand fs-3" href="#"> <img class="logo" src="./assets/Logo-Goodsleep.png" alt="Logo"></a>
               <p class="site-description slogan site-tagline">
@@ -30,25 +27,26 @@
               <button id="testing" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse justify-content-end .text-light">
+              <div id="navbarNav" class="collapse navbar-collapse justify-content-end .text-light">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active text-light" aria-current="page" href="#">INICIO</a>
+                    <a class="nav-link active text-light" aria-current="page" href="#intro">INICIO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">NOSOTROS</a>
+                    <a class="nav-link text-light" href="#beneficios">NOSOTROS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">SERVICIOS</a>
+                    <a class="nav-link text-light" href="#servicios">SERVICIOS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">PRODUCTOS</a>
+                    <a class="nav-link text-light" href="#productos">PRODUCTOS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">CONTACTO</a>
+                    <a class="nav-link text-light" href="#contacto">CONTACTO</a>
                   </li>
                 </ul>
               </div>
+           
 
       <div id="Icons-first-section">
         
@@ -67,9 +65,9 @@
 
             </div>
           </nav>
-          
+      <section id="intro">
         <div class="imagenFondo text-light container-fluid">
-            <div id="first-section" class="container">
+            <div id="first-section" class="container flex-md-row">
             <div class="contenedortextoimagen">
                 <p id="first-text">RECUPERA TU VIDA</p>
                 <h2 class="h1"> Regulando tu <b> sueño </b></h2>
@@ -84,33 +82,22 @@
             </div>
              </div>
         </div>
-
-        <div id="SecondSection">
-          <div id="background-SecondImage">
-          <div class="container">
-            <p id="SubSecondSection">TERAPIA DE SUEÑO</p> <br>
-          <div class="container">
-            <h2 id="textSecondSection" class="container h1"> Permite que tu cuerpo, mente y alma <br>
-              sientan un remanso de tranquilidad</h2>
-
-            <p class="pt-3"> <strong>Goodsleep</strong> ofrece técnicas que mejoran la respiración, calman la mente y propician un ambiente 
-              que permite tener un <strong>sueño tranquilo y días más brillantes.</strong></p>
-          </div>
-
-
-            
-          </div>
-        </div>
-
-        </div>
-
-    </header>
-    <section id="intro">
-
     </section>
 
     <section id="nosotros">
+      <div id="SecondSection">
+        <div id="background-SecondImage">
+        <div class="container">
+          <p id="SubSecondSection">TERAPIA DE SUEÑO</p> <br>
+        <div id="SecondText-SecondSection" class="container">
+          <h2 id="textSecondSection"> Permite que tu cuerpo, mente y alma
+            sientan un <b>remanso de tranquilidad</b></h2>
 
+          <p id= "SegundoParrafo" class="pt-3 container-xs"> <strong>Goodsleep </strong> ofrece técnicas que mejoran la respiración, calman la mente y propician un ambiente 
+            que permite tener un <strong>sueño tranquilo y días más brillantes.</strong></p>
+        </div>            
+        </div>
+      </div>
     </section>
 
     <section id="beneficios" class="seccion-beneficios">
@@ -118,22 +105,22 @@
         <div class="container col-12 text-center contenedor-seccion-global">
           <div class="row row-cols-4">
             <div class="col-6 col-md-3 beneficios-box">
-              <img src="/assets/psicologo.png" class="iconos-beneficios" alt="Icono Respaldo de expertos">
+              <img src="./assets/psicologo.png" class="iconos-beneficios" alt="Icono Respaldo de expertos">
               <h4 class="titulos-h4">Respaldo científico</h4>
               <p class="parrafos-beneficios">Nuestro panel de expertos garantizan la efectividad de las terapias y los productos ofrecidos para la calidad de sueño.</p>
             </div>
             <div class="col-6 col-md-3 beneficios-box">
-              <img src="/assets/buena-resena.png" class="iconos-beneficios" alt="Icono Clientes satisfechos">
+              <img src="./assets/buena-resena.png" class="iconos-beneficios" alt="Icono Clientes satisfechos">
               <h4 class="titulos-h4">Clientes satisfechos</h4>
               <p class="parrafos-beneficios">Nuestros clientes respaldan y recomiendan nuestras diversas soluciones, pues han mejorado al 100% su calidad de vida.</p>
             </div>
             <div class="col-6 col-md-3 beneficios-box">
-              <img src="/assets/igualdad.png" class="iconos-beneficios" alt="Icono Personal capacitado">
+              <img src="./assets/igualdad.png" class="iconos-beneficios" alt="Icono Personal capacitado">
               <h4 class="titulos-h4">Personal capacitado</h4>
               <p class="parrafos-beneficios">Nuestro equipo se ha preparado con los más altos estándares de servicio para ofrecer una atención al cliente excepcional.</p>
             </div>
             <div class="col-6 col-md-3 beneficios-box">
-              <img src="/assets/dolar.png" class="iconos-beneficios" alt="Icono Economia sostenible">
+              <img src="./assets/dolar.png" class="iconos-beneficios" alt="Icono Economia sostenible">
               <h4 class="titulos-h4">Precios asequibles</h4>
               <p class="parrafos-beneficios">Nuestra misión es aportar al bienestar a la comunidad, por eso nos comprometemos con una política de economía sostenible.</p>
             </div>
@@ -159,7 +146,7 @@
             <div class="col-12 col-md-5">
               <div class="ancho-columna-img">
                 <div class="pic-align-1">
-                  <img src="/assets/sede-lunar-short.jpg" class="mainpic" alt="Sede Moon Goodsleep">
+                  <img src="./assets/sede-lunar-short.jpg" class="mainpic" alt="Sede Moon Goodsleep">
                 </div>
               </div>
             </div> 
@@ -167,9 +154,11 @@
       </div>
     </section>
 
-    <section id="eslogan">
-
-    </section>
+    <div id="eslogan">
+      <div id="Thirdsectionbg" class="container-fluid">
+        <div id="ThirdSectionText"><p>Domina el <i> arte </i> de <strong><i>dormir</i></strong></p></div>
+      </div>
+    </div>
 
     <section id="productos" class="seccion-productos">
       <div class="container-fluid">
@@ -178,12 +167,11 @@
             <div class="col-12 col-md-5">
               <div class="ancho-columna-img">
                 <div class="pic-align-2">
-                  <img src="/assets/pic-man-producto-short.jpg" class="mainpic" alt="Producto estrella Somnox">
+                  <img src="./assets/pic-man-producto-short.jpg" class="mainpic" alt="Producto estrella Somnox">
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-1">
-
             </div>
             <div class="col-12 col-md-6">
               <div class="ancho-columna-texto">
@@ -196,10 +184,21 @@
           </div>
       </div>
     </section>
-
-    <section id="testimonios">
-
     </section>
+
+    <div id="testimonios">
+      <div id="Forthsectionbg" class="container-fluid">
+        <div id="ForthSectionText" class="container">
+          <img src="./assets/comillass.png" alt="Comillas" width="55px" height="65px" id="ComillasGrandes"><br>
+          <p> <strong>Goodsleep</strong> tiene la mejor terapia que he experimentado hasta la fecha tras años de búsqueda para 
+          poner fin a mi problema de insomnio. Conocen muy bien la hospitalidad, su centro del sueño Moon es 
+          extremadamente relajante y las tarifas también son bastante razonables.</p> <br>
+          <img src="./assets/alegre-mujer-mediana-edad-cabello-rizado_1262-20859.jpg" alt="Foto Reseña" width="40px" height="40px" id="Picturereference"> <br>
+          <div id="NameReference"> <strong>AMANDA BALLESTEROS</strong></div> 
+          <div id="LocationReference">Bogotá, Colombia</div>
+        </div>
+      </div>
+    </div>
 
     <section id="contacto" class="seccion-contacto">
       <div class="container-fluid">
@@ -258,30 +257,30 @@
               <div class="ancho-columna-texto">
                 <div class="row">
                   <hr class="linea-form">
-                  <form action="" class="formstyle">
-                    <input type="text" placeholder="Nombre..." />
+                  <form class="formstyle" id="formulario">
+                    <input id="boton_nombre" type="text" placeholder="Nombre..." />
                     <br />
-                    <input type="email" placeholder="Email..." />
+                    <input id="boton_email" type="email" placeholder="Email..." />
                     <br />
-                    <input type="tel" placeholder="Teléfono..." />
+                    <input id="boton_telefono" type="tel" placeholder="Teléfono..." />
                     <br />
-                    <div>
+                   <div>
                       <label>
-                        <select name="padecimiento" placeholder="Nivel de insomnio...">
+                        <select id="boton_padecimiento" name="padecimiento" placeholder="Nivel de insomnio...">
                           <option value="pocoFrecuente">Poco frecuente</option>
                           <option value="moderado">Moderado</option>
                           <option value="severo">Severo</option>
                           <option value="cronico">Crónico</option>
                         </select>
                       </label>
-                    </div>
+                    </div> 
                     <br />
                     <div class="checkboxstyle">
                       <input type="checkbox" id="terms" />
                       <label for="terms">Acepto el <a href="">tratamiento de datos</a> de Goodsleep.</label>
                     </div>
                     <br />
-                    <button type="submit" value="Enviar" class="boton-azul-form">Quiero un bono del 20%</button>
+                    <button id="btnEnviar" type="submit" value="Enviar" class="boton-azul-form">Quiero un bono del 20%</button>
                   
 
                   </form>
@@ -297,7 +296,7 @@
         <div class="container">
           <div class="row caja-footer">
             <div class="col-12 col-md-3">
-              <img src="/assets/Logo-Goodsleep.png" class="logo-footer" alt="Logo Goodsleep">
+              <img src="./assets/Logo-Goodsleep.png" class="logo-footer" alt="Logo Goodsleep">
               <br />
               <br />
               <p class="parrafo-footer-p">Soñamos con un mundo de personas más felices y comunidades más amables entre sí, por eso nos dedicamos a mejorar la experiencia del sueño y el buen dormir.</b></p>
@@ -307,6 +306,8 @@
                   <div class="single-sif"><i class="fa-brands fa-instagram"></i></div>
                   <div class="single-sif"><i class="fa-brands fa-youtube"></i></div>
                   <div class="single-sif"><i class="fa-brands fa-facebook"></i></div>
+                  <div class="single-sif"><a href="https://github.com/Erikaloren" target="_blank"> <i class="fa-brands fa-github"></i></a></div>
+                  <div class="single-sif"><a href="https://github.com/Marialostudio" target="_blank"><i class="fa-brands fa-github"></i></a></div>
                 </div>
               </div>
             </div>
@@ -365,14 +366,14 @@
           <div class="row ancho-columna-copyright">
             <div class="col-12">
               <div class="copyright text-center">
-                <p class="copyright-text">©Copyright <b>Goodsleep</b> 2024 - Designed & Devolped by <a href="https://github.com/Marialostudio/the_codex_men-p1">CodeX-MEN</a>. All rights reserved. </p>
+                <p class="copyright-text">©Copyright <b>Goodsleep</b> 2024 - Designed & Devolped by <a href="https://github.com/Marialostudio/the_codex_men-p1">Lina López & Erika González</a>. All rights reserved. </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
-
+    <script src="goodsleep.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

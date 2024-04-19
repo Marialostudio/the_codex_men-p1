@@ -4,6 +4,9 @@
 
 #InteriorNav{
     background-color: #0F1533;
+    flex-wrap: wrap !important;
+    position: fixed;
+    top: 0;
 }
 
 #barra {
@@ -12,8 +15,9 @@
 
 .imagenFondo {
     background-image: url(./assets/bg-night-2.jpg);
-    height: 80vh;
+    height: auto;
     width: 10hv;
+    padding-top: 7%;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -25,11 +29,12 @@
 
 #first-text{
     letter-spacing: 3px;
+    font-family: "Brygada+1918", serif;
 }
 
 #first-section{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -38,13 +43,10 @@
   
     display: flex;
     padding: 10px;
-    padding-inline: 100px !important;
-   
+    /* padding-inline: 100px !important; */
 } 
 
 .contenedor-logo{
-   
-
     height:70px;
     display: flex;
     flex-direction: column;
@@ -71,17 +73,20 @@
 .contenedortextoimagen{
     width: max-content;
     margin: 0;
+    font-family: "Inter", serif;
+    /* text-align: center; */
 }
 
 .contenedortextoimagen h2{
     text-wrap: pretty;
     width: 65%;
     font-size: 55px;
+    font-family: "Brygada+1918", serif;
 }
 
 .contenedortextoimagen h2 b{
     font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Brygada+1918", serif;
 }
 
 #Icons-first-section{
@@ -89,26 +94,29 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 10%;
+    width: auto;
     height: 10%;
+    gap: 10px;
 }
 
 #buttonFirstSection{
     letter-spacing: 3px;
     width: 35%;
+    font-family: "Inter", serif;
 }
 
 #background-SecondImage{
     background-image: url(./assets/pic-woman-bed.jpg);
-    height: 140vh;
+    height: 130vh;
     width: 10hv;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
 }
 
 #SubSecondSection{
     letter-spacing: 3px;
+    font-family: "Brygada+1918", serif;
     width: 35%;
     color: #0F1533;
     display: flex;
@@ -120,17 +128,110 @@
 }
 
 #textSecondSection{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: flex;
+    font-family: "Brygada+1918", serif;
     color: #0F1533;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     width: 100%;
     font-size: 260%;
     padding-left: 2%;
 }
 
+#SecondText-SecondSection{
+    width: 70%;
+    padding-left: 2%;
+    font-family: "Inter", serif;
+}
+
+#SegundoParrafo{
+    font-size: 125%;
+    text-align: center;
+
+}
+
+#Thirdsectionbg{
+    background-image: url(./assets/bg-moon.jpg);
+    height: 35vh;
+    width: 10hv;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ThirdSectionText{
+    display: flex;
+    color: #f1f2f7;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 280%;
+    padding-left: 2%;
+    font-family: "Brygada+1918", serif;
+}
+
+#Forthsectionbg{
+    background-image: url(./assets/bg-moon.jpg);
+    height: 80vh;
+    width: 10hv;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: #5F84CE;
+}
+
+#ForthSectionText{
+    display: flex;
+    color: #0d1758;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 140%;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 1%;
+    text-align: center;
+    line-height: 100%;
+    font-family: "Inter", serif;
+}
+
+#Picturereference{
+    height: 8%;
+    width: 5%;
+    background-color: red;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    gap: 5%;
+}
+
+#NameReference{
+    font-family: "Inter", serif;
+    letter-spacing: 3px;
+    font-size: 60%;
+}
+
+#LocationReference{
+    font-size: 60%;
+    color: #f1f2f7;
+    font-family: "Inter", serif;
+}
+
+@media (width <= 600px){
+    .contenedortextoimagen h2{
+        width: 100%;
+    }
+    .contenedortextoimagen{
+        max-width: 100%;
+        text-align: center;
+    }
+    #first-section{
+        padding-top: 100px;
+    }
+}
 
 .seccion-beneficios {
     background-color: #E8E1DB;
@@ -428,7 +529,7 @@
 
 
 footer {
-    background-image: url("/assets/bg-night-2.jpg");
+    background-image: url("./assets/bg-night-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -519,7 +620,7 @@ ul {
 
 .copyright-text a{
     font-weight: 500;
-    color:#5F84CE;
+    color:#418fad;
     text-decoration: none;
 }
 
@@ -527,7 +628,9 @@ ul {
     color:aqua;
 }
 
-
+.single-sif{
+    color: #E8E1DB;
+}
 
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -1138,6 +1241,4 @@ ul {
         width: 50%;
         height: auto;
     }
-
 }
-
